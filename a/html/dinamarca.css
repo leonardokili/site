@@ -1,0 +1,96 @@
+body {
+    display: block;
+    background: chocolate;
+    margin-top: 90px;
+    width: 100%;
+
+}
+.block {
+    display: flex;
+    justify-content: center;
+}
+.brick {
+    display: flex;
+    justify-content: center;
+}
+.redbrick {
+    width: 36px;
+    height: 14px;
+    background: #e9162b;
+    border-top: 2px solid #b07c21;
+    border-left: 2px solid #b07c21;
+    border-right: 2px solid #b07c21;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.whitebrick {
+    width: 36px;
+    height: 14px;
+    background: white;
+    border-top: 2px solid #b07c21;
+    border-left: 2px solid #b07c21;
+    border-right: 2px solid #b07c21;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.red {
+    width: 116px;
+    height: 60px;
+    background: #e9162b;
+    border: 2px solid #b07c21;
+}
+.white {
+    display: flex;
+    width: 116px;
+    height: 60px;
+    background: white;
+    border: 2px solid #b07c21;
+}
+#whitebrick {
+    width: 36px;
+    height: 14px;
+    background: white;
+    border-top: 2px solid #b07c21;
+    border-left: 2px solid #b07c21;
+    border-right: 2px solid #b07c21;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#whitebrick:hover {
+    width: 36px;
+    height: 14px;
+    background: green;
+    border-top: 2px solid #b07c21;
+    border-left: 2px solid #b07c21;
+    border-right: 2px solid #b07c21;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: default;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    background: #a2d2ff;
+    margin: 30px 15px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Happy Monkey', cursive;
+    color: white;
+    text-shadow: 0 0 1px black;
+}
+h4, h5 {
+    margin: 3px;
+    background: #EFB0C9;
+    border-radius: 3px;
+    padding: 4px 7px;
+}
+
+h4 {
+    margin-top: 20px;
+}
